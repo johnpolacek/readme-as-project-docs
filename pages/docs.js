@@ -1,11 +1,9 @@
 import { MDXProvider } from "@mdx-js/react"
-import MarkdownContent from "../README.md"
+import ReadMe from "../README.md"
 
 const Docs = () => (
   <MDXProvider>
-    <div>
-      <MarkdownContent />
-    </div>
+    <ReadMe />
   </MDXProvider>
 )
 
